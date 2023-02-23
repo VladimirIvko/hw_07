@@ -35,16 +35,18 @@
             aria-expanded="false"
             aria-controls="mobile-menu">
           <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg" >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
+          xmlns="http://www.w3.org/2000/svg" 
+          width="47" 
+          height="32" 
+          viewBox="0 0 47 32" >
+          <path 
+          fill="none" 
+          stroke-linejoin="round" 
+          stroke-linecap="round" 
+          stroke-miterlimit="4" 
+          stroke-width="3" 
+          stroke="#000" 
+          d="M1.96 21.154h28.965M1.96 11.615h28.965M1.96 2.077h28.965"></path>
           </svg>
         </button>
             </div>
@@ -548,14 +550,15 @@
             <ul class="mobail-menu">
                 <li class="item"><a class="mobail-menu-item link" href="./index.html">Studio</a></li>
                 <li class="item"><a class="mobail-menu-item link" href="./portfolio.html">Portfolio</a></li>
-                <li class="item"><a class="mobail-menu-item link" href="">Contacts</a></li>
+                <li class="item"><a class="mobail-menu-item link mobail-menu-item-contact" href="">Contacts</a></li>
             </ul>
         <ul class="link phone-menu-connection list">
             <li class="item"><a class="item-connection link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="item"><a class="item-connection link menu-mobail" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
-            <div class="phone-menu-icons">
-                <a class="socials-item"
+            <ul class="phone-menu-icons">
+                <li>
+                    <a class="socials-item"
                    href="https://www.instagram.com/"
                    aria-label="Instagram"
                    target="_blank"
@@ -565,7 +568,9 @@
                    </svg>
                    
                   </a>
-                  <a class="socials-item"
+                </li>
+                  <li>
+                    <a class="socials-item"
                   href="https://twitter.com/"
                   aria-label="Twitter"
                   target="_blank"
@@ -574,7 +579,10 @@
                     <use href="./images/icons/icons.svg#icon-twitter"></use>
                    </svg>
                   
-                  </a>  <a class="socials-item"
+                  </a>  
+                  </li>
+                  <li>
+                    <a class="socials-item"
                   href="https://www.facebook.com/"
                   aria-label="Facebook"
                   target="_blank"
@@ -582,8 +590,11 @@
                   <svg class="socials-icons" width="24px" height="24px">
                     <use href="./images/icons/icons.svg#icon-facebook"></use>
                    </svg>
+                 </a> 
+                </li>
                  
-                  </a>  <a class="socials-item"
+                  <li>
+                      <a class="socials-item"
                   href="https://www.instagram.com/"
                   aria-label="Linkedin"
                   target="_blank"
@@ -593,7 +604,8 @@
                    </svg>
                 
                   </a>
-          </div>
+                  </li>
+                </ul>
         </div>
     <script
       defer
