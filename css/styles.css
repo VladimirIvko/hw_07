@@ -723,7 +723,7 @@ background-color: #404BBF;
     gap: 72px;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 }
 .team{
     background-color: #F4F4FD;
@@ -731,15 +731,7 @@ background-color: #404BBF;
 .team-img{
     max-width: 264px;
 }
-.team-item:not(:last-child){
-    margin-bottom: 72px;
-    
-}
-@media screen and (min-width: 428px){
-    .team-list{
-        align-items: center;
-    }
-}
+
 @media screen and (min-width: 768px) {
     .team-list{
         flex-direction: row;
@@ -951,7 +943,7 @@ background-color: #404BBF;
         justify-content: center;
     }
     .main-footer .container{
-        padding-left: 34px;
+        padding-left: 15px;
     }
     
 }
@@ -1180,12 +1172,12 @@ background-color: #404BBF;
 }
  .footer-button{
     position: relative;
-    display: inline-block;
+    display: block;
  }
  .subscribe-icon{
    position: absolute;
    top: 50%;
-   right: 80px;
+   right: 24px;
    transform: translateY(-50%);
    fill: #FFFFFF;
  }
@@ -1196,19 +1188,9 @@ background-color: #404BBF;
    transform: translateY(-50%);
    left: 24px;
  }
- @media screen and (min-width: 428px){
-    .subscribe-icon{
-        right: 130px;
-    }
-
- }
  @media screen and (min-width: 768px) {
     .input-mail{
         width: 264px;
-    }
-    .subscribe-icon{
-        right: 24px;
-        top: 37%;
     }
     .sending-data-footer{
         flex-direction: row;
